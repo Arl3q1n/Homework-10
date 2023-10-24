@@ -7,13 +7,18 @@ public class Main {
         // Exercise 1
         System.out.println("\n---------------------------\n");
 
-        Polygon polygon = new Polygon();
         Square square = new Square();
         Circle circle = new Circle();
 
-        polygon.render();
+        Polygon squarePolygon = new Square();
+        Polygon circlePolygon = new Circle();
+
+
         square.render();
         circle.render();
+
+        squarePolygon.render();
+        circlePolygon.render();
 
     }
 }
